@@ -7,12 +7,12 @@ import './styles.css'
 
 function SalesCard() {
     
-    const min = new Date(new Date().setDate(new Date().getDate() - 365));
-    const max = new Date();
+    const min = new Date(new Date().setDate(new Date().getDate() - 365))
+    const max = new Date()
     
     // Declaração de um estado dentro de um componente React
-    const [minDate, setMinDate] = useState(min);      // data mínima do DatePicker
-    const [maxDate, setMaxDate] = useState(max);      // data mínima do DatePicker
+    const [minDate, setMinDate] = useState(min)      // data mínima do DatePicker
+    const [maxDate, setMaxDate] = useState(max)      // data mínima do DatePicker
 
     return (
         <>
